@@ -7,7 +7,9 @@
 # This is a mandatory parameter. Please provide the location of
 # spark installation.
 #######################################################################
-export SPARK_HOME=
+export SPARK_HOME=~/Desktop/spark3.5.5
+export PATH=$SPARK_HOME/bin:$PATH
+export PYSPARK_PYTHON=python3
 
 #######################################################################
 # Script environment parameters. When they are not set the script
